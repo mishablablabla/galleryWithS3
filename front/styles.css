@@ -109,7 +109,7 @@ h1 {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.3s, transform 0.2s;
+  transition: opacity 0.3s, transform 0.2s, scale 0.2s;
   cursor: pointer;
 }
 
@@ -123,6 +123,10 @@ h1 {
   height: 1.5rem;
   stroke: #fff;
   stroke-width: 2;
+}
+
+.delete-btn svg:hover {
+  transform: scale(1.1);
 }
 
 .upload-container {
